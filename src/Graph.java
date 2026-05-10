@@ -27,7 +27,7 @@ public class Graph {
         List<Integer> sortedIds = new ArrayList<>(adjacencyList.keySet());
         Collections.sort(sortedIds);
         for (int id : sortedIds) {
-            System.out.println("  [" + id + "] → " + adjacencyList.get(id));
+            System.out.println("  [" + id + "] -> " + adjacencyList.get(id));
         }
     }
 
